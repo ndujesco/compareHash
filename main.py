@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def home():
-    return jsonify(message="This is the home page. Just put it because why not?")
+    return jsonify(message="This is the home page. Just put it because why not?😊")
 
 
 @app.post("/hash-password")
